@@ -431,8 +431,6 @@ The first query displays every order together with the customer's name, city, an
 
 **Result:** The query successfully connects orders to their corresponding customers.
 
-**Screenshot:** `screenshots/query1.png`
-
 ---
 
 ## Query 2 Result
@@ -440,8 +438,6 @@ The first query displays every order together with the customer's name, city, an
 The second query displays products purchased in each order item together with their category, price, and quantity.
 
 **Result:** The query successfully connects order items with product information.
-
-**Screenshot:** `screenshots/query2.png`
 
 ---
 
@@ -451,7 +447,6 @@ The third query displays all customers and their orders.
 
 **Result:** Because a `LEFT JOIN` was used, customers without orders are also included.
 
-**Screenshot:** `screenshots/query3.png`
 
 ---
 
@@ -461,7 +456,6 @@ The fourth query displays customers whose total spending is above the average cu
 
 **Result:** The query successfully identifies customers who spend more than the calculated average.
 
-**Screenshot:** `screenshots/query4.png`
 
 ---
 
@@ -471,7 +465,6 @@ The fifth query ranks customers according to their total spending.
 
 **Result:** Customers are assigned a spending rank, beginning with the customer with the highest total spending.
 
-**Screenshot:** `screenshots/query5.png`
 
 ---
 
@@ -481,7 +474,6 @@ The sixth query numbers each customer's orders chronologically.
 
 **Result:** Each customer's first order is numbered 1, followed by their subsequent orders.
 
-**Screenshot:** `screenshots/query6.png`
 
 ---
 
@@ -491,7 +483,6 @@ The seventh query displays daily revenue and the running total revenue.
 
 **Result:** The running revenue increases as additional sales are included over time.
 
-**Screenshot:** `screenshots/query7.png`
 
 ---
 
